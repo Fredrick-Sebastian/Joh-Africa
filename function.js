@@ -10,3 +10,4 @@ prev.addEventListener('click', function(){
     let items = document.querySelectorAll('.item')
     document.querySelector('.slides').prepend(items[items.length - 1])
 })
+
