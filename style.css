@@ -932,6 +932,8 @@ footer hr{
         border-radius: 0 0 30px 30px;
         text-align: center;
         top: 0;
+        position: fixed;
+        width: 100%;
     }
 
     .item .content{
