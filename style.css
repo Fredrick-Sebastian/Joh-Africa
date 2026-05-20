@@ -302,6 +302,125 @@ header ul li a{
 }
 
 
+/* plane activitie page  */
+
+.visity{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 70px 70px;
+    background: linear-gradient(to right, #132843, #2d0b00);
+}
+
+.trip{
+    width: 370px;
+    height: 200px;
+    margin: 5px;
+    color: #000000ec;
+    font-size: medium;
+    overflow: hidden;
+}
+
+.visity img{
+    width:370px;
+    height: 180px;
+    opacity: 0.8;
+}
+.visity img:hover{
+    width:370px;
+    height: 180px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.visity button{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+
+.visity h1{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    bottom: 120px;
+}
+
+
+.visity button{
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background: #132843;
+    border: none;
+}
+
+.book{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:25px;
+    width:auto;
+    height:600px;
+    border-radius:20px;
+    background:whitesmoke;
+    padding: 25px;
+    box-shadow: 0px 0px 10px 5px gray, inset 3px 3px 8px 8px rgba(255, 255, 255, 0.527);
+}
+
+.book h1{
+    font-size: medium;
+    color: #0000008a;
+}
+
+.info{
+    margin: 0 10px;
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+
+}
+
+.activebox{
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.activebox input{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.smsbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.smsbox textarea{
+    width: 500px;
+    height: 150px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.smsbox button{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background: #132843;
+    border: none;
+}
+
+
 /* Testimonial */
 
 
@@ -1072,4 +1191,129 @@ footer hr{
         margin-bottom: 10px;
         margin-top: 20px;
     }
+
+    /* plane activitie page  */
+
+.visity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 70px 70px;
+    background: linear-gradient(to right, #132843, #2d0b00);
+}
+
+.trip{
+    width: 370px;
+    height: 200px;
+    margin: 5px;
+    color: #000000ec;
+    font-size: medium;
+    overflow: hidden;
+}
+
+.visity img{
+    width:370px;
+    height: 180px;
+    opacity: 0.8;
+}
+.visity img:hover{
+    width:370px;
+    height: 180px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.visity button{
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+
+.visity h1{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    bottom: 120px;
+}
+
+
+.visity button{
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background: #132843;
+    border: none;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    margin:25px;
+    width:auto;
+    height:700px;
+    border-radius:20px;
+    background:whitesmoke;
+    padding: 25px;
+    box-shadow: 0px 0px 10px 5px gray, inset 3px 3px 8px 8px rgba(255, 255, 255, 0.527);
+}
+
+.book h1{
+    display: none;
+    font-size: medium;
+    color: #0000008a;
+}
+
+.info{
+    margin: 10px 10px;
+    width: 350px ;
+    height: 40px;
+    padding: 5px;
+
+}
+
+.activebox{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.activebox input{
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    text-align: center;
+}
+
+.activebox p{
+    margin: 0 3px;
+}
+
+.smsbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.smsbox textarea{
+    width: 350px;
+    height: 150px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.smsbox button{
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background: #132843;
+    border: none;
+}
 }

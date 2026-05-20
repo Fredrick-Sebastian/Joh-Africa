@@ -1,8 +1,35 @@
+
 const sidebar = document.querySelector('.sidebar')
 
 let next = document.querySelector('.next')
 let prev = document.querySelector('.prev')
 
+/*let day; 
+switch (new Date().getDay()){
+    case 0:
+        day="Sunday";
+        break;
+    case 1:
+        day="Monday";
+        break;
+    case 2:
+        day="Tuesday";
+        break;
+    case 3:
+        day="Wednesday";
+        break;
+    case 4:
+        day="Thusday";
+        break;
+    case 5:
+        day="Friday";
+        break;
+    case 6:
+        day="Saturday";
+}
+    document.getElementById(date).innerHTML
+    ="Today is"+ day;
+*/
 next.addEventListener('click', function(){
     let items = document.querySelectorAll('.item')
     document.querySelector('.slides').appendChild(items[0])
